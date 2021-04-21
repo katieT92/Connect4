@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7A5A16262F99E000568496 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A5A15262F99E000568496 /* Stats.swift */; };
+		0A7A5A19262F9D4A00568496 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A5A18262F9D4A00568496 /* Game.swift */; };
 		0AB9DED6262A03300099E8D4 /* Connect4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9DED5262A03300099E8D4 /* Connect4App.swift */; };
 		0AB9DED8262A03300099E8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9DED7262A03300099E8D4 /* ContentView.swift */; };
 		0AB9DEDA262A03310099E8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB9DED9262A03310099E8D4 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7A5A15262F99E000568496 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		0A7A5A18262F9D4A00568496 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		0AB9DED2262A03300099E8D4 /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB9DED5262A03300099E8D4 /* Connect4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4App.swift; sourceTree = "<group>"; };
 		0AB9DED7262A03300099E8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,7 +88,9 @@
 			children = (
 				0AB9DED7262A03300099E8D4 /* ContentView.swift */,
 				0AB9DEE5262A03B30099E8D4 /* MainMenu.swift */,
+				0A7A5A15262F99E000568496 /* Stats.swift */,
 				0AB9DEEF262A0DD10099E8D4 /* OpponentSelection.swift */,
+				0A7A5A18262F9D4A00568496 /* Game.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,9 +167,11 @@
 				0AB9DEED262A0B440099E8D4 /* Model.swift in Sources */,
 				0AB9DEF0262A0DD10099E8D4 /* OpponentSelection.swift in Sources */,
 				0AB9DED8262A03300099E8D4 /* ContentView.swift in Sources */,
+				0A7A5A16262F99E000568496 /* Stats.swift in Sources */,
 				0AB9DEE6262A03B30099E8D4 /* MainMenu.swift in Sources */,
 				0AB9DEEA262A0AC80099E8D4 /* ViewModel.swift in Sources */,
 				0AB9DED6262A03300099E8D4 /* Connect4App.swift in Sources */,
+				0A7A5A19262F9D4A00568496 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
