@@ -1,0 +1,41 @@
+
+[
+  {
+    "Player": [
+      {
+        "id": 0,
+        "wins": 0,
+        "losses": 0,
+        "games": 0,
+        "draws": 0,
+        "moves": 0,
+        "game": "Connect4"
+      },
+      {
+        "id": 1,
+        "wins": 0,
+        "losses": 0,
+        "games": 0,
+        "draws": 0,
+        "moves": 0,
+        "game": "Connect4"
+      },
+      {
+        "id": 2,
+        "wins": 0,
+        "losses": 0,
+        "games": 0,
+        "draws": 0,
+        "moves": 0,
+        "game": "Connect4"
+      }
+    ]
+  },
+  {
+    "Game": {
+      "name": "Connect4",
+      "games": 0,
+      "draws": 0
+    }
+  }
+]
